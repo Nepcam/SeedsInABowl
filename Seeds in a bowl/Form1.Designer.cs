@@ -53,6 +53,7 @@
             this.buttonDraw.TabIndex = 1;
             this.buttonDraw.Text = "Draw";
             this.buttonDraw.UseVisualStyleBackColor = true;
+            this.buttonDraw.Click += new System.EventHandler(this.buttonDraw_Click);
             // 
             // textBoxNumSeeds
             // 

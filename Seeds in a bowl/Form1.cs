@@ -31,5 +31,10 @@ namespace Seeds_in_a_bowl
             //Refresh the picture display
             pictureBoxBowl.Refresh();
         }
+
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
